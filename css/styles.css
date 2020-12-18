@@ -1,0 +1,16 @@
+.tablist-left {
+    width: 25%;
+    display: inline-block;
+}
+.tablist-content {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+.ui-page {
+    background-color: #e37272;
+}
+
+
