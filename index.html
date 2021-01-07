@@ -39,7 +39,13 @@
                 atypique qui m'a permis de mieux réfléchir à mon avenir.
             </div>
             <div class="ui-block-b">
-                <img src="images/mano.png" class="float">
+                <a href="#popupPhotoPortrait" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline float" data-transition="fade">
+                    <img src="images/mano.png" class="float">
+                </a>
+                <div data-role="popup" id="popupPhotoPortrait" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                    <img src="images/fleur.jpg" alt="Photo portrait">
+                </div>
             </div>
         </div>
 
