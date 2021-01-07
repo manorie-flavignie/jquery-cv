@@ -34,3 +34,11 @@
     float: right;
 }
 
+.floatf {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
